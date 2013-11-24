@@ -1,0 +1,42 @@
+---
+layout: default
+title: plants-and-machines
+---
+
+<div id="home" class="jumbotron header-half">
+	<div id="landingpage"> </div>
+  <div class="container">
+  	<div class="row">	
+  		<div class="col-md-offset-4 col-md-4 w-bg">
+  			<div class="row">
+  				<div class="col-md-8 col-md-offset-2"> 
+  					<div class="thumbnail">
+							<img src="images/logo.png" alt="logo" /> 
+						</div>
+  				</div>
+  			</div> 
+		    <h1 class="text-center"> Hello, world! </h1>
+		    <p class="text-right">robotic ecosystems</p>
+		    <!-- <p><a class="btn btn-default btn-lg" role="button">Learn more</a></p>  --> 			
+  		</div>
+  	</div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+  	<!-- col 1 -->
+		<div class="col-md-6"> 
+			<h2 class="">Putting the bot back into botanics<div class="text-right pull-right">[°_°]</div></h2>
+			{% for post in site.posts|slice(1) %}
+				{% include post-item-12.html %}
+			{% endfor %}
+		</div>
+		<!-- col 2 -->
+		<div class="col-md-6">
+			<h2 class="">why do robots?<div class="pull-right text-right">\[°-°],</div></h2> 
+			{% for post in site.posts|slice(1) %} 
+				{% include post-item-12.html %}
+			{% endfor %}
+		</div>
+  </div>
+</div>

@@ -3,11 +3,130 @@ layout: default
 title: plants-and-machines
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div id="home" class="jumbotron header-half">
+  <div class="container">
+  	<div class="row">	
+  		<div class="col-md-offset-4 col-md-4 w-bg">
+  			<div class="row">
+  				<div class="col-md-8 col-md-offset-2"> 
+  					<div class="thumbnail">
+							<img src="{{site.url}}/images/landing-page/logo.png" alt="logo" /> 
+						</div>
+  				</div>
+  			</div> 
+		    <h1 class="text-center"> Hello, world! </h1>
+		    <p class="text-right">robotic ecosystems</p> 			
+  		</div>
+  	</div>
+  </div>
+</div>
+<div id="bot" class="">
+	<div id="" class="container">
+		<div class="row">
+			<div class="col-md-12"> 
+				<p class="lead col-md-12 ">
+					For thousands of years nature has been taking care of us. We think it is time to return some
+				</p>			
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+				<div class="power-point text-center"> love</div>.
+				<p class="lead icon-padding ">
+					We created the ultimate spa for aquatic- and plant-life <br>by using modern day technologies. Fusing the powers of rapsberry-pi and the arduino micro-controller  into <br> a <strong>robot</strong> with one purpose:
+				</p>
+			</div>
+			<div class="thumbnail col-md-4">
+				<img alt="icon-of-raspberry-pi" src="{{site.url}}/images/landing-page/ard-plus-pi.png" class="img-rounded"/>
+									
+			</div>
+		</div>
+		<div class="row">
+			<p class="under-heading text-center"><strong>give nature a place called home</strong></p>
+		</div>
+		<div class="row">
+			<div class="col-md-3 col-md-offset-3"> 
+				<img class="pull-right" data-src="" src="{{site.url}}/images/landing-page/bot-gif.gif" alt="image of the alpha bot line"/>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="bot" class="jumbotron">
+	<div id="" class="container">
+		<div class="row">
+			<div class="col-md-6"> 
+				<p class="lead">
+					We merge both domains to create amazingly cute <strong>robots</strong>. <br>With the sole purpose to serve <strong>plants</strong> &amp; <strong> animals </strong> as a home and to provide to both a recreational environment to live and flourish.
+				</p>
+			</div>
+		</div>	
+	</div>
+</div>
+<div id="a-life" class="jumbotron">
+	<div id="" class="container">
+		<div class="row">
+			<div class="thumbnail col-md-3">
+								
+			</div>
+			<div class="thumbnail col-md-4">		
+				<h3 class="text-center">plants</h3>
+				<img alt="icon-of-a-flower" src="{{site.url}}/images/landing-page/flora.png"/>	
+				<h3 class="text-center"> auquatic-life</h3>
+				<img alt="icon-of-the-sea-live" src="{{site.url}}/images/landing-page/aquatic-sea-life.png"/>			
+			</div>
+			<div class="col-md-6"> 
+				<p class="lead">
+					While both are being watched over by a little artificial intelligence. That lovingly cares about its inhabitants
+				</p>
+			</div>
+		</div>
+	</div>
+</div>	
+<div class="container">
+  <div class="row">
+  	<!-- col 1 -->
+		<div class="col-md-6"> 
+			<h2 class="">We are putting the bot back into botanics<div class="text-right pull-right">\[°°]/</div></h2>
+			{% for post in site.posts|slice(1) %}
+				{% include post-item-12.html %}
+			{% endfor %}
+		</div>
+		<!-- col 2 -->
+		<div class="col-md-6">
+			<h2 class="">why do robots?<div class="pull-right text-right">\[°-°],</div></h2> 
+			{% for post in site.posts|slice(1) %} 
+				{% include post-item-12.html %}
+			{% endfor %}
+		</div>
+  </div>
+</div>
+
+<div id="" class="jumbotron header-half">
+  <div class="container">
+  	<div class="row">	
+  		<div class="col-md-offset-4 col-md-4 w-bg"> 
+		    <h1 class="text-center"> Hello, world! </h1>
+		    <p class="text-right">robotic ecosystems</p>			
+  		</div>
+  	</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+  	<!-- col 1 -->
+		<div class="col-md-6"> 
+			<h2 class="">Putting the bot back into botanics<div class="text-right pull-right">[°_°]</div></h2>
+			{% for post in site.posts|slice(1) %}
+				{% include post-item-12.html %}
+			{% endfor %}
+		</div>
+		<!-- col 2 -->
+		<div class="col-md-6">
+			<h2 class="">why do robots?<div class="pull-right text-right">\[°-°],</div></h2> 
+			{% for post in site.posts|slice(1) %} 
+				{% include post-item-12.html %}
+			{% endfor %}
+		</div>
+  </div>
 </div>
