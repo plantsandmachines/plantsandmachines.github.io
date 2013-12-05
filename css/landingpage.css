@@ -4,10 +4,30 @@ LANDING-PAGE
 
 **************************************************/
 
+body {
+	font-family: 'Dosis', sans-serif;
+}
+
+.nav {
+	font-size: 1.4em;
+	font-weight: lighter;	
+}
+.navbar-header {
+	font-weight: normal;
+}
 #home {
 	position: relative;
 	overflow: hidden;
-	background: url('/images/landing-page/landinpage.png') top left no-repeat;	
+	background: url('/images/landing-page/sensors.jpg') center left no-repeat;	
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+}
+#robot_image {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/ren-001.jpg') center left no-repeat;	
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
 	           -o-background-size: cover;
@@ -35,7 +55,7 @@ LANDING-PAGE
 	
 }
 .jumbotron .w-bg {
-	background: #fff;
+
 }
 .jumbotron.header-half {
 	padding-bottom: 0;
@@ -51,8 +71,8 @@ LANDING-PAGE
 	margin-bottom: 7rem;
 }
 .asciibot {
-	font-family: monospace;
-	font-size: 8rem;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 3.5rem;
 	margin-top: 4rem;
 }
 .love {
@@ -62,12 +82,15 @@ LANDING-PAGE
 	margin-bottom: 5rem;
 	margin-top: 3rem;
 }
-#bot .intro {
-	font-size: 6rem;
+#tagline .intro {
+	font-size: 4.3rem;
+	margin-top: 1em;
 }
-#bot .lead i {
+#tagline .lead i {
 	font-size: 4rem;
-	line-height: 1rem;
+}
+.lead {
+	line-height: 1em;
 }
 .justify {
 	text-align: justify;
@@ -87,4 +110,7 @@ LANDING-PAGE
 	background-color: #B6B6B6;
 	color: #fff;
 	margin-top: 6rem;
+}
+.title_height {
+	height: 38rem;
 }

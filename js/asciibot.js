@@ -19,6 +19,7 @@ function AsciiBot() {
  	this.DEFUNCT 		= 3;
  	this.BLINKING		= 4;
 	this.OEH                = 5;
+	this.PLANT		= 6;
 	this.POINT_LEFT		= 10;
  	this.POINT_RIGHT	= 20;
  	this.POINT_LEFT_UP	= 30;
@@ -41,6 +42,7 @@ function AsciiBot() {
 	this.face[this.OEH]	= '[∩‿∩]';
 	this.face[this.OEH3]	= '[˘̩‿˘̩]';
 	this.face[this.OEH4]	= '[⁰。⁰]';
+	this.face[this.PLANT]	= '✿✿✿';
 	this.pointLeft		= '&lt;';
  	this.pointRight		= '&gt;';
  	this.pointLeftUp	= '\\';
