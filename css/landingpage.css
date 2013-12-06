@@ -82,15 +82,15 @@ body {
 	margin-bottom: 5rem;
 	margin-top: 3rem;
 }
-#tagline .intro {
+.intro {
 	font-size: 4.3rem;
 	margin-top: 1em;
 }
-#tagline .lead i {
+.lead i {
 	font-size: 4rem;
 }
 .lead {
-	line-height: 1em;
+	line-height: 0.5em;
 }
 .justify {
 	text-align: justify;
@@ -112,5 +112,20 @@ body {
 	margin-top: 6rem;
 }
 .title_height {
-	height: 38rem;
+	height: 45rem;
+}
+#tagline {
+	margin-bottom: 4em;
+}
+
+.normal {
+	line-height: 1em;
+}
+#how img
+{
+	height: 15em;
+	width: auto;
+}
+.thumbnail {
+	border: none;
 }

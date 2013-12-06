@@ -37,13 +37,26 @@ title: plants-and-machines
 	<div class="container">	
 
 
-		<!-- ABOUT -->
+		<!-- WHAT -->
 
 		<div class="row" >			
 			<div class="col-md-12">
-				<p class="intro lead text-center">
+				<p class="lead normal text-center">
 					We build robots equipped with precise sensors, powerfull actuators and raw intelligence, to serve one purpose:
-					<br/>
+				</p>
+
+				<!-- ROBOTS -->
+	
+				<div class="row">
+					<div id="abot" class="asciibot col-md-5 text-center"></div>
+					<div id="bbot" class="asciibot col-md-2 text-center"></div>	
+					<div id="cbot" class="asciibot col-md-5 text-center"></div>	
+				</div>
+				
+			
+				<!-- WHY -->
+
+				<p class="intro lead text-center">
 					To be the ultimate spa for nature.
 				</p>
 			</div>
@@ -61,51 +74,44 @@ title: plants-and-machines
 </div>
 
 
-<div class="container">
-  <div class="row">
-  	<!-- col 1 -->
-		<div class="col-md-6"> 
-			<h2 class="">We are putting the bot back into botanics<div class="text-right pull-right">\[°°]/</div></h2>
+<!-- HOW -->
+
+<div id="how" class="container">
+	<div class="row text-center">
+		<div class="col-md-3">
+			<img src="images/landing-page/geklaut-pflanze.png">	
+			<h3>aquaponic</h3>
+			<p>We combine plants, aquatic animals and micro-organisms to an artificial ecosystem. Your plants will never have to worry about getting enough nutrients, again and you will save a lot of water.</p>
+		</div>
+		<div class="col-md-3">	
+			<img src="images/landing-page/geklaut-automat.png">	
+			<h3>automat</h3>
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+		</div>
+		<div class="col-md-3">	
+			<img src="images/landing-page/geklaut-modular.png">	
+			<h3>modular</h3>
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+		</div>
+		<div class="col-md-3">	
+			<img src="images/landing-page/geklaut-opensource.png">	
+			<h3>opensource</h3>
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+		</div>
+	</div>
+</div>
+
+
+<!-- BLOG ENTRIES -->
+
+<div id="blog" class="container">
+	<div class="row">
+		<div class="col-md-12"> 
+			<p class="lead text-center">Read more about our endeavour to put the bot back into botanics</p>
 			{% for post in site.posts|slice(1) %}
 				{% include post-item-12.html %}
 			{% endfor %}
 		</div>
-		<!-- col 2 -->
-		<div class="col-md-6">
-			<h2 class="">why do robots?<div class="pull-right text-right">\[°-°],</div></h2> 
-			{% for post in site.posts|slice(1) %} 
-				{% include post-item-12.html %}
-			{% endfor %}
-		</div>
-  </div>
+	</div>
 </div>
 
-<div id="" class="jumbotron header-half">
-  <div class="container">
-  	<div class="row">	
-  		<div class="col-md-offset-4 col-md-4 w-bg"> 
-		    <h1 class="text-center"> Hello, world! </h1>
-		    <p class="text-right">robotic ecosystems</p>			
-  		</div>
-  	</div>
-  </div>
-</div>
-
-<div class="container">
-  <div class="row">
-  	<!-- col 1 -->
-		<div class="col-md-6"> 
-			<h2 class="">Putting the bot back into botanics<div class="text-right pull-right">[°_°]</div></h2>
-			{% for post in site.posts|slice(1) %}
-				{% include post-item-12.html %}
-			{% endfor %}
-		</div>
-		<!-- col 2 -->
-		<div class="col-md-6">
-			<h2 class="">why do robots?<div class="pull-right text-right">\[°-°],</div></h2> 
-			{% for post in site.posts|slice(1) %} 
-				{% include post-item-12.html %}
-			{% endfor %}
-		</div>
-  </div>
-</div>
