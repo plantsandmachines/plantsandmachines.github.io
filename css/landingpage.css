@@ -37,12 +37,16 @@ body {
 	              background-size: cover;
      */
 }
+
+#robot .intro {
+	padding-bottom: 2rem;
+}
 .robot_cad {
-	width: 8em;
-	height: 6em;
+	width: 10em;
+	height: 8em;
 	border: 1px solid #d3d3d3;
 	background-color: #f3f3f3;
-	padding-bottom: 0.1em;
+	margin-bottom: 0.2em;
 }
 .divider {
 	width: 25em;
@@ -53,20 +57,55 @@ hr {
 	height: 1px;
 }
 #formula {
-	
 	background-color: #9FD400;
+	color: #fff;
+	padding-top: 7rem;
+}
+.lead p {
+	padding-top: 4rem;
+	padding-bottom: 6rem;
+}
+#formula .arduino {
+	background: url('/images/landing-page/arduino-inside.png') top left no-repeat;	
+	height: 30rem;
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+}
+#formula .raspberry-pi {
+	background: url('/images/landing-page/raspberry-pi.png') top left no-repeat;	
+	height: 30rem;
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
 }
 .formula {
 	vertical-align: middle;	
-	height: 200px;
+	height: 30rem;
 	font-size: 8rem;
 	font-weight: bold;
 	color: #fff;
+	line-height: 30rem; 
 }
 .robot-iso {
 	border: 1px solid #d3d3d3;
 	background-color: #f3f3f3;
-	padding-bottom: 0.1em;
+	padding-bottom: 14.5em;
+}
+#robot .tooltip-inner {
+	font-size: 3rem;
+	min-width: 400px;
+	text-align: left;
+	margin-left: 2px;
+	padding: 19px 19px 37px;
+	background-color: white;
+	color: black;
+	border: 1px solid #d3d3d3;
+	
 }
 #a-place-called-home {
 	position: relative;

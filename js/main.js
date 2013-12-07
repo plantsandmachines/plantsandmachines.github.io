@@ -9,5 +9,14 @@ $(document).ready(function(){
 	$('#cbot').append( cBot.getBot( bBot.DEFUNCT, bBot.POINT_LEFT) );
 	console.log('test')
 
+	$('.hover').hover( function(){
+    		$('.hover').tooltip('show');
+	});
+
+	$('.hover').mouseout( function(){
+    		$('.hover').tooltip('hide');
+	});
+
 });
+
 
