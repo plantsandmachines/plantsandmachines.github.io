@@ -45,7 +45,28 @@ body {
 	padding-bottom: 0.1em;
 }
 .divider {
-	width: 65em;
+	width: 25em;
+}
+hr {
+	color: #9FD400;
+	background-color: #9FD400;
+	height: 1px;
+}
+#formula {
+	
+	background-color: #9FD400;
+}
+.formula {
+	vertical-align: middle;	
+	height: 200px;
+	font-size: 8rem;
+	font-weight: bold;
+	color: #fff;
+}
+.robot-iso {
+	border: 1px solid #d3d3d3;
+	background-color: #f3f3f3;
+	padding-bottom: 0.1em;
 }
 #a-place-called-home {
 	position: relative;
@@ -98,10 +119,12 @@ body {
 }
 .intro {
 	font-size: 4.3rem;
-	margin-top: 1em;
+	margin-top: 0.5em;
 }
 .lead i {
-	font-size: 4rem;
+	font-size: 6.5rem;
+	line-height: 10rem;
+	font-weight: 100;
 }
 .lead {
 	line-height: 0.5em;
