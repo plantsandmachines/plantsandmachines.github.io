@@ -24,14 +24,28 @@ body {
 	           -o-background-size: cover;
 	              background-size: cover;
 }
-#robot_image {
+#robot {
 	position: relative;
 	overflow: hidden;
-	background: url('/images/landing-page/ren-001.jpg') center left no-repeat;	
+        background-color: #fff;
+	padding-bottom: 2.2em;
+	font-size: 1.5em;
+     /* background: url('/images/landing-page/ren-001.jpg') center left no-repeat;	
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
 	           -o-background-size: cover;
 	              background-size: cover;
+     */
+}
+.robot_cad {
+	width: 8em;
+	height: 6em;
+	border: 1px solid #d3d3d3;
+	background-color: #f3f3f3;
+	padding-bottom: 0.1em;
+}
+.divider {
+	width: 65em;
 }
 #a-place-called-home {
 	position: relative;
@@ -107,7 +121,7 @@ body {
 	margin-top: 3rem;
 }
 .grey-bg {
-	background-color: #B6B6B6;
+	background-color: #eeeeee;
 	color: #fff;
 	margin-top: 6rem;
 }
