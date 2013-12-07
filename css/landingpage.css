@@ -4,6 +4,14 @@ LANDING-PAGE
 
 **************************************************/
 
+body {
+	background-color: #b6b6b6;
+}
+
+.logo {
+	padding-top: 3em;
+}
+
 #home {
 	position: relative;
 	overflow: hidden;
