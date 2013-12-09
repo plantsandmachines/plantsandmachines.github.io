@@ -6,10 +6,11 @@ LANDING-PAGE
 
 body, h1, h2, h3, h4, h5 {
 	font-family: 'Dosis', sans-serif;
+	font-weight: lighter;
 }
 
 h1, h2, h3, h4, h5 {
-	font-weight: stronger;
+	font-weight: bolder;
 }
 
 .nav {
@@ -27,6 +28,16 @@ h1, h2, h3, h4, h5 {
 	         -moz-background-size: cover;
 	           -o-background-size: cover;
 	              background-size: cover;
+}
+#interface {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/geklaut_ipad.jpg') center left no-repeat;	
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
 }
 #robot {
 	position: relative;
@@ -68,6 +79,9 @@ hr {
 	background-color: #9FD400;
 	color: #fff;
 	padding-top: 7rem;
+}
+#formula p {
+	font-size: 4rem;
 }
 #colorbox {
 	background-color: #6C98D1;
@@ -209,7 +223,7 @@ hr {
 }
 
 .normal {
-	line-height: 1em;
+	line-height: 1.4em;
 }
 #features img
 {
@@ -225,4 +239,7 @@ hr {
 }
 .thumbnail {
 	border: none;
+}
+.margin-bottom {
+	margin-bottom: 15rem;
 }
