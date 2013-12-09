@@ -4,8 +4,12 @@ LANDING-PAGE
 
 **************************************************/
 
-body {
+body, h1, h2, h3, h4, h5 {
 	font-family: 'Dosis', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: stronger;
 }
 
 .nav {
@@ -37,13 +41,16 @@ body {
 	              background-size: cover;
      */
 }
-
+#aquaponic {
+	font-size: 2rem;
+	font-weight: lighter;
+}
 #robot .intro {
 	padding-bottom: 2rem;
 }
 .robot_cad {
-	width: 10em;
-	height: 8em;
+	width: 95%;
+	height: 9em;
 	border: 1px solid #d3d3d3;
 	background-color: #f3f3f3;
 	margin-bottom: 0.2em;
@@ -55,11 +62,18 @@ hr {
 	color: #9FD400;
 	background-color: #9FD400;
 	height: 1px;
+	width: 60%
 }
 #formula {
 	background-color: #9FD400;
 	color: #fff;
 	padding-top: 7rem;
+}
+#colorbox {
+	background-color: #6C98D1;
+	color: #fff;
+	padding-top: 7rem;
+
 }
 .lead p {
 	padding-top: 4rem;
@@ -197,10 +211,17 @@ hr {
 .normal {
 	line-height: 1em;
 }
-#how img
+#features img
 {
-	height: 15em;
+	height: 8em;
 	width: auto;
+}
+#features p {
+	height: 13rem;
+}
+#accordion .panel {
+	border: 0px solid #fff;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
 }
 .thumbnail {
 	border: none;

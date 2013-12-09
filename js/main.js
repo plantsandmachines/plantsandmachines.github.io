@@ -10,11 +10,11 @@ $(document).ready(function(){
 	console.log('test')
 
 	$('.hover').hover( function(){
-    		$('.hover').tooltip('show');
+    		$(this).tooltip('show');
 	});
 
 	$('.hover').mouseout( function(){
-    		$('.hover').tooltip('hide');
+    		$(this).tooltip('hide');
 	});
 
 });
