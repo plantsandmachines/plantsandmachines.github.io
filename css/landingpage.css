@@ -4,22 +4,134 @@ LANDING-PAGE
 
 **************************************************/
 
-body {
-	background-color: #b6b6b6;
+	font-weight: lighter;
 }
 
-.logo {
-	padding-top: 3em;
+h1, h2, h3, h4, h5 {
+	font-weight: bolder;
 }
 
+.nav {
+	font-size: 1.4em;
+	font-weight: lighter;	
+}
+.navbar-header {
+	font-weight: normal;
+}
 #home {
 	position: relative;
 	overflow: hidden;
-	background: url('/images/landing-page/landinpage.png') top left no-repeat;	
+	background: url('/images/landing-page/sensors.jpg') center left no-repeat;	
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
 	           -o-background-size: cover;
 	              background-size: cover;
+}
+#interface {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/geklaut_ipad.jpg') center left no-repeat;	
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+}
+#robot {
+	position: relative;
+	overflow: hidden;
+        background-color: #fff;
+	padding-bottom: 2.2em;
+	font-size: 1.5em;
+     /* background: url('/images/landing-page/ren-001.jpg') center left no-repeat;	
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+     */
+}
+#aquaponic {
+	font-size: 2rem;
+	font-weight: lighter;
+}
+#robot .intro {
+	padding-bottom: 2rem;
+}
+.robot_cad {
+	width: 95%;
+	height: 9em;
+	border: 1px solid #d3d3d3;
+	background-color: #f3f3f3;
+	margin-bottom: 0.2em;
+}
+.divider {
+	width: 25em;
+}
+hr {
+	color: #9FD400;
+	background-color: #9FD400;
+	height: 1px;
+	width: 60%
+}
+#formula {
+	background-color: #9FD400;
+	color: #fff;
+	padding-top: 7rem;
+}
+#formula p {
+	font-size: 4rem;
+}
+#colorbox {
+	background-color: #6C98D1;
+	color: #fff;
+	padding-top: 7rem;
+
+}
+.lead p {
+	padding-top: 4rem;
+	padding-bottom: 6rem;
+}
+#formula .arduino {
+	background: url('/images/landing-page/arduino-inside.png') top left no-repeat;	
+	height: 30rem;
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+}
+#formula .raspberry-pi {
+	background: url('/images/landing-page/raspberry-pi.png') top left no-repeat;	
+	height: 30rem;
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+}
+.formula {
+	vertical-align: middle;	
+	height: 30rem;
+	font-size: 8rem;
+	font-weight: bold;
+	color: #fff;
+	line-height: 30rem; 
+}
+.robot-iso {
+	border: 1px solid #d3d3d3;
+	background-color: #f3f3f3;
+	padding-bottom: 14.5em;
+}
+#robot .tooltip-inner {
+	font-size: 3rem;
+	min-width: 400px;
+	text-align: left;
+	margin-left: 2px;
+	padding: 19px 19px 37px;
+	background-color: white;
+	color: black;
+	border: 1px solid #d3d3d3;
+	
 }
 #a-place-called-home {
 	position: relative;
@@ -43,7 +155,7 @@ body {
 	
 }
 .jumbotron .w-bg {
-	background: #fff;
+
 }
 .jumbotron.header-half {
 	padding-bottom: 0;
@@ -59,8 +171,8 @@ body {
 	margin-bottom: 7rem;
 }
 .asciibot {
-	font-family: monospace;
-	font-size: 8rem;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 3.5rem;
 	margin-top: 4rem;
 }
 .love {
@@ -70,12 +182,17 @@ body {
 	margin-bottom: 5rem;
 	margin-top: 3rem;
 }
-#bot .intro {
-	font-size: 6rem;
+.intro {
+	font-size: 4.3rem;
+	margin-top: 0.5em;
 }
-#bot .lead i {
-	font-size: 4rem;
-	line-height: 1rem;
+.lead i {
+	font-size: 6.5rem;
+	line-height: 10rem;
+	font-weight: 100;
+}
+.lead {
+	line-height: 0.5em;
 }
 .justify {
 	text-align: justify;
@@ -92,7 +209,35 @@ body {
 	margin-top: 3rem;
 }
 .grey-bg {
-	background-color: #B6B6B6;
+	background-color: #eeeeee;
 	color: #fff;
 	margin-top: 6rem;
+}
+.title_height {
+	height: 45rem;
+}
+#tagline {
+	margin-bottom: 4em;
+}
+
+.normal {
+	line-height: 1.4em;
+}
+#features img
+{
+	height: 8em;
+	width: auto;
+}
+#features p {
+	height: 13rem;
+}
+#accordion .panel {
+	border: 0px solid #fff;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+}
+.thumbnail {
+	border: none;
+}
+.margin-bottom {
+	margin-bottom: 15rem;
 }
