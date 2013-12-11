@@ -67,17 +67,16 @@ title: plants-and-machines
 				<h2 class="intro lead text-center">the ultimate spa for nature</h2>
 				<p class="lead normal text-center">
 					A sensing robot with strong actors to watch over and care for its <br>biological friends.
-				</p><hr/>	
-				<div id="features" class="row text-center">
+				</p>	
+				<div id="features" class="row text-center features">
 					<div class="col-md-4">
 						<h3>aquaponic</h3>
 						<p class="">
 							Combine plants, aquatic animals and micro-organisms to an artificial ecosystem. 
 							<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">*</a>
 						</p>
-					<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-							<img src="images/landing-page/geklaut-pflanze.png">	
-						
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+							<img src="images/landing-page/geklaut-pflanze.png">
 						</a>
 					</div>
 					<div class="col-md-4">	
@@ -133,34 +132,58 @@ title: plants-and-machines
 <!-- interface img -->
 
 <div id="interface" class="jumbotron header-half title_height">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="intro lead">Garden can has interface</h2>
+				<p class="lead normal text-left">
+					Tune in into the needs of nature. Check back on your robot and visit your garden anytime from  everywhere. Don't miss the party.
+				</p>
+			</div>
+		</div>
+		<div class="row features text-center">
+			<div class="col-md-4">
+				<h3>wifi enabled</h3>
+				<p class="">
+					integrate the robot into your<br> home network.
+				</p>
+				<img src="images/landing-page/wi-fi.jpg">
+			</div>
+		<div class="col-md-4 col-md-offset-0">	
+				<h3>system monitoring</h3>
+				<p>
+					log, monitor and evaluate environmental variables
+				</p>
+				<img src="images/landing-page/geklaut-automat.png">	
+			</div>
+			<div class="col-md-4">	
+				<h3>plug and play</h3>
+				<p>
+					add new sensors and actor<br> anytime
+				</p>
+				<img src="images/landing-page/geklaut-opensource.png">
+			</div>
+		</div>
+	</div>
 </div>
 
 
 <!-- interface txt -->
 
 <div class="container margin-bottom">
-	<div class="row">
-		<div class="col-md-12">
-			<h2 class="intro lead">Garden can has interface</h2>
-			<p class="lead normal text-left">
-				Tune in into the needs of nature. Check back on your robot and visit your garden anytime from  everywhere. Don't miss the party.
-			</p>
-		</div>
-	</div>
 </div>
 
 
 <!-- social learning -->
 
-<div id="colorbox" class="jumbotron header-half">
+<div id="botnet" class="jumbotron header-half colorbox">
 		<div class="container margin-bottom">	
 			<div class="row" >			
 				<div class="col-md-12">
-				<h2 class="intro lead">The first friendly botnet</h2>
-				<p class="lead normal text-left">
-					Our robots are connected to a global network. Each growcycle will contribute to a school. Social learning robots will get more efficient over time.
-				</p>
-
+					<h2 class="intro lead">The first friendly botnet</h2>
+					<p class="lead normal text-left">
+						Our robots are connected to a global network. Each growcycle will contribute to a school. Social learning robots will get more efficient over time.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -202,7 +225,6 @@ title: plants-and-machines
 <div id="blog" class="container">
 	<div class="row">
 		<div class="col-md-12"> 
-			<p class="lead text-center">Read more about our endeavour to put the bot back into botanics</p>
 			{% for post in site.posts|slice(1) %}
 				{% include post-item-12.html %}
 			{% endfor %}

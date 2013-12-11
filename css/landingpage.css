@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5 {
 }
 #interface {
 	position: relative;
-	overflow: hidden;
+	overflow: visible;
 	background: url('/images/landing-page/geklaut_ipad.jpg') center left no-repeat;	
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
@@ -80,12 +80,6 @@ hr {
 }
 #formula p {
 	font-size: 4rem;
-}
-#colorbox {
-	background-color: #6C98D1;
-	color: #fff;
-	padding-top: 7rem;
-
 }
 .lead p {
 	padding-top: 4rem;
@@ -223,7 +217,8 @@ hr {
 .normal {
 	line-height: 1.4em;
 }
-#features img
+#features img,
+.features img
 {
 	height: 8em;
 	width: auto;
