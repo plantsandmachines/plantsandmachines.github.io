@@ -54,6 +54,46 @@ h1, h2, h3, h4, h5 {
 	font-size: 2rem;
 	font-weight: lighter;
 }
+#ecosystem {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/ecosystem.jpg') center left no-repeat;	
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+}
+#lab {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/lab.jpg') center left no-repeat;	
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+}
+#robotic {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/robotic.jpg') center left no-repeat;	
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+}
+#contact {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/contact.jpg') center left no-repeat;	
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+}
 #robot .intro {
 	padding-bottom: 2rem;
 }
