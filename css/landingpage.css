@@ -22,7 +22,8 @@ h1, h2, h3, h4, h5 {
 #home {
 	position: relative;
 	overflow: hidden;
-	background: url('/images/landing-page/sensors.jpg') center left no-repeat;	
+	background: url('/images/landing-page/sensors.jpg') center left no-repeat;
+	background-attachment: fixed;	
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
 	           -o-background-size: cover;
@@ -32,6 +33,7 @@ h1, h2, h3, h4, h5 {
 	position: relative;
 	overflow: visible;
 	background: url('/images/landing-page/geklaut_ipad.jpg') center left no-repeat;	
+	background-attachment: fixed;
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
 	           -o-background-size: cover;
@@ -251,6 +253,9 @@ hr {
 .title_height {
 	height: 45rem;
 }
+.interface_img {
+	height: 33rem;
+}
 #tagline {
 	margin-bottom: 4em;
 }
@@ -266,6 +271,14 @@ hr {
 }
 #features p {
 	height: 13rem;
+}
+.features_interface img {
+	height: 11.5em;
+	width: auto;
+	margin-top:-11.5rem;
+}
+.features_interface p {
+	font-size: 1.5em;
 }
 #accordion .panel {
 	border: 0px solid #fff;
