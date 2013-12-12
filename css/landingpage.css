@@ -3,7 +3,8 @@
 LANDING-PAGE
 
 **************************************************/
-
+body {
+	font-family: 'Dosis', sans-serif;
 	font-weight: lighter;
 }
 
