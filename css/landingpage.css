@@ -114,7 +114,7 @@ hr {
 	color: #9FD400;
 	background-color: #9FD400;
 	height: 1px;
-	width: 60%
+	width: 45%
 }
 #formula {
 	background-color: #9FD400;
@@ -129,8 +129,10 @@ hr {
 	padding-bottom: 6rem;
 }
 #formula .arduino {
-	background: url('/images/landing-page/arduino-inside.png') top left no-repeat;	
-	height: 30rem;
+	margin: 0 auto;
+	background: url('/images/landing-page/arduino-inside.png') top center no-repeat;	
+	height: 29rem;
+	width: 29rem;
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
 	           -o-background-size: cover;
@@ -138,8 +140,10 @@ hr {
 
 }
 #formula .raspberry-pi {
-	background: url('/images/landing-page/raspberry-pi.png') top left no-repeat;	
-	height: 30rem;
+	margin: 0 auto;
+	background: url('/images/landing-page/raspberry-pi.png') top center no-repeat;	
+	height: 29rem;
+	width: 29rem;
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
 	           -o-background-size: cover;
@@ -275,7 +279,9 @@ hr {
 .features_interface img {
 	height: 11.5em;
 	width: auto;
-	margin-top:-11.5rem;
+}
+.features_interface {
+	margin-top: -11.5rem;
 }
 .features_interface p {
 	font-size: 1.5em;
