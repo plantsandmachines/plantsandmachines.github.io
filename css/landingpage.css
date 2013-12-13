@@ -9,6 +9,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
+	font-family: 'Dosis', sans-serif;
 	font-weight: bolder;
 }
 
@@ -61,16 +62,30 @@ h1, h2, h3, h4, h5 {
 	position: relative;
 	overflow: hidden;
 	background: url('/images/landing-page/ecosystem.jpg') center left no-repeat;	
+	background-attachment: fixed;
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
 	           -o-background-size: cover;
 	              background-size: cover;
 
 }
+#ecosystem2 {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/chilli.jpg') center left no-repeat;	
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+
+}
 #lab {
 	position: relative;
 	overflow: hidden;
 	background: url('/images/landing-page/lab.jpg') center left no-repeat;	
+	background-attachment: fixed;
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
 	           -o-background-size: cover;
@@ -81,6 +96,7 @@ h1, h2, h3, h4, h5 {
 	position: relative;
 	overflow: hidden;
 	background: url('/images/landing-page/robotic.jpg') center left no-repeat;	
+	background-attachment: fixed;
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
 	           -o-background-size: cover;
@@ -90,7 +106,8 @@ h1, h2, h3, h4, h5 {
 #contact {
 	position: relative;
 	overflow: hidden;
-	background: url('/images/landing-page/contact.jpg') center left no-repeat;	
+	background: url('/images/landing-page/contact.jpg') center left no-repeat;
+	background-attachment: fixed;
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
 	           -o-background-size: cover;
@@ -193,17 +210,16 @@ hr {
 #bot .thumbnail {
 	background: transparent;
 	border: none;
-	
+}
+#law {
+	font-size: 30px;
+	line-height: 5rem;
 }
 .jumbotron .w-bg {
 
 }
 .jumbotron.header-half {
 	padding-bottom: 0;
-}
-#bot .lead {
-	font-size: 30px;
-	margin: 0px auto 0rem auto;
 }
 .power-point {
 	font-size: 6.3rem;
@@ -257,7 +273,7 @@ hr {
 .title_height {
 	height: 45rem;
 }
-.interface_img {
+.divider_img {
 	height: 33rem;
 }
 #tagline {
@@ -298,4 +314,5 @@ hr {
 }
 #aquaponic {
 	line-height: 3.5rem;
+	text-align: justify;
 }
