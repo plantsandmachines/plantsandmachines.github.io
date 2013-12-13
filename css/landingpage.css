@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5 {
 #interface {
 	position: relative;
 	overflow: visible;
-	background: url('/images/landing-page/geklaut_ipad.jpg') center left no-repeat;	
+	background: url('/images/landing-page/the_girl.png') center left no-repeat;	
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
