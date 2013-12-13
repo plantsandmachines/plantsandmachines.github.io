@@ -284,14 +284,15 @@ hr {
 	line-height: 1.4em;
 }
 #features img,
-.features img
-{
+.features img {
 	height: 8em;
 	width: auto;
 }
-#features p {
+#features p,
+#botnet_features p {
 	height: 13rem;
 }
+
 .features_interface img {
 	height: 11.5em;
 	width: auto;
@@ -300,8 +301,22 @@ hr {
 	margin-top: -11.5rem;
 }
 .features_interface p {
-	font-size: 1.5em;
+	font-size: 2rem;
 }
+#botnet_features {
+	z-index: 0;
+}
+#botnet_features p {
+	height: 5em;
+}
+#botnet {
+	position: relative;
+}
+#botnet .colorbox {
+	z-index: 0;	
+	margin-top: -8rem;
+}
+
 #accordion .panel {
 	border: 0px solid #fff;
 	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
