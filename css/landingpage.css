@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5 {
 	position: relative;
 	overflow: hidden;
         background-color: #fff;
-	padding-bottom: 2.2em;
+	padding-bottom: 4em;
 	font-size: 1.5em;
      /* background: url('/images/landing-page/ren-001.jpg') center left no-repeat;	
 	-webkit-background-size: cover;
@@ -137,6 +137,7 @@ hr {
 	background-color: #9FD400;
 	color: #fff;
 	padding-top: 7rem;
+	margin-bottom: 3em;
 }
 #formula p {
 	font-size: 4rem;
@@ -277,7 +278,7 @@ hr {
 	height: 33rem;
 }
 #tagline {
-	margin-bottom: 4em;
+	margin-bottom: 7em;
 }
 
 .normal {
@@ -299,6 +300,9 @@ hr {
 }
 .features_interface {
 	margin-top: -11.5rem;
+}
+#interface_features .features_interface {
+	margin-bottom: 7em;
 }
 .features_interface p {
 	font-size: 2rem;
@@ -327,7 +331,15 @@ hr {
 .margin-bottom {
 	margin-bottom: 15rem;
 }
+.margin-top {
+	margin-top: 10rem;
+}
 #aquaponic {
 	line-height: 3.5rem;
 	text-align: justify;
+}
+.aquaponic img {
+	width: 82%;
+	height: auto;
+	margin-top: 3px;
 }
