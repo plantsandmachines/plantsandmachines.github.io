@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5 {
 #lab {
 	position: relative;
 	overflow: hidden;
-	background: url('/images/landing-page/lab.jpg') center left no-repeat;	
+	background: url('/images/landing-page/whiteboard.jpg') center left no-repeat;	
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5 {
 #robotic {
 	position: relative;
 	overflow: hidden;
-	background: url('/images/landing-page/robotic.jpg') center left no-repeat;	
+	background: url('/images/landing-page/lab.jpg') center left no-repeat;	
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
@@ -212,9 +212,19 @@ hr {
 	background: transparent;
 	border: none;
 }
+#bot {
+	line-height: 3.5rem;
+	font-size: 2rem;
+	font-weight: lighter;
+	text-align: justify;
+}
 #law {
-	font-size: 30px;
-	line-height: 5rem;
+	font-size: 2rem;
+	line-height: 3.5rem;
+	font-weight: lighter;
+}
+#law hr {
+	margin-top: 13em;
 }
 .jumbotron .w-bg {
 

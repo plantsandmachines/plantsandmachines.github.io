@@ -7,32 +7,51 @@ title: robotic
 </div>
 
 <div id="law" class="container">
-	<div class="row">
-		<div class="col-md-12 text-center"> 
-			<p>A robot may not injure a being or, through inaction, allow a being to come to harm.<br/><br/>
-			A robot must obey the orders given to it by human beings, except where such orders would conflict with the First Law.<br/><br/>
-			A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws.<br/><br>
-			</p>
-			<hr>
+	<div class="row text-center margin-top margin-bottom">
+		<div class="col-md-4">
+			<h3>I</h3>
+			<p>A robot may not injure plants, humans or other animals or, through inaction, allow a being to come to harm.<br/><br/></p>
 		</div>
+		<div class="col-md-4">
+			<h3>II</h3>
+			<p>A robot must obey the orders given to it by human beings, except where such orders would conflict with the First Law.<br/><br/></p>
+		</div>
+		<div class="col-md-4">
+			<h3>III</h3>
+			<p>A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws.<br/><br></p>
+		</div>
+		<hr>
 	</div>
 </div>
 
 <div id="bot" class="container">
 	<div class="row">
-		<div class="col-md-6"> 
-			<p class="lead">
-				The alpha-prototype consists of three transparent storage boxes made of polypropylene. [pic-001] The aquaculture resides in a 37x25x27 cm box at the bottom of the vertically stacked system. A submersible, self-sensing aquarium heater keeps the roughly 20 Liters of water at a temperature of around 26ºC. An aerator feeds an air stone inside the aquarium to ensure the right level of dissolved oxygen. A submersible pump is used for water transportation. The bottom of the box is covered with gravel suited for aquariums that has no apparent erosion changing the PH of the system. A lid covers the box.
-The hydroculture sits on top of the bottom boxes lid. The dimensions are 37x25x17 cm. It is equipped with a water-sensor that measures the electrical resistance between two contacts. [pic-002] When there is no water near the sensor, the resistance is tending towards infinitive. As soon as water touches both of the contacts, resistance drops and the sensor goes to HIGH. The water-sensors vertical position defines the maximum water level inside the hydroculture while flooded. The grow bed is filled with inflated clay pebbles with a grain of 1-4 mm. Inside the grow bed is a perforated hose that connects to the pump through holes on the bottom of the hydroculture-box and the lid of the aquaculture. A drain is cut out of the bottom side of the box covered by a sponge that acts as a filter.
-The top cover of the system is made out of the same kind of box used for the aquaculture. It rests on the hydroculture-box upside down so that the floor is facing upwards. The top case holds a digital temperature and humidity sensor [pic-003] and a 220 V AC, 60 W full spectrum fluorescent lamp. [pic-004] Above the lamp a vent releases excessive heat. On the side of the box two 80 mm fans facing to the outside of the system take care of regulating temperature and humidity.
-
-Above the top cover rests a reflector shield built out of a spare lid, some cardboard and an emergency blanket to increase luminance efficacy.
-
-All switchable actuators of the system are connected to relays. [pic-005] The pump and the light are triggered by a 2 channel machine tool relay board. The relays are capable of switching 240 V alternating current at up to 10 A with a 3-5 V direct current input on the coils. For safety reasons, switching and coil current are separated by an opto-coupler. The fans run on 12 V direct current and are connected to a 6 channel relay board. The aerator is not controlled by a relay, it is permanently switched on. The heater has temperature sensing capabilities and is able to decide on its own when to turn on and off to hold the preset temperature. It is not connected to a relay.
-The relay boards are powered and controlled with an Arduino micro-controller. The Arduino is a open source hardware project from Italy and consists of an ATmega328 clocked at 16 MHz and with a memory of 32KB. It features 14 digital and 6 analogue in- and outputs. An ATmega16u2 acts as a serial to USB converter, killing the need for an extra FTDY-to-USB adapter. The Arduino comes with an integrated programmer for the integrated-circuit. Because the Arduino converges all these functions into a single, well documented and easy to use board, it's ideal for prototyping. The Arduino also provides 3.3 V DC, ground and a data line to each of the sensors. It is powered through an active 4 channel USB hub.
-The hub also powers a credit-card-sized, open source computer called raspberryPi. It features an ARM processor running at 1 GHz and 512 MB RAM. The operating system used is an ARM ported version of Debian Wheezy, a Linux based system. RaspberryPi and Arduino are communicating over a serial connection through the USB-hub. The raspberryPi is connected to LAN with a USB-wifi-card.
-All switching current comes out of an ATX power-supply-unit. The PSU is short-circuited in order to run without a computer main board and connected to a USB cup warmer that acts as a load in case all actuators of the system are turned off.
-			</p>
+		<div class="col-md-5">
+			<h3>setup</h3> 
+			<p>Our latest prototype, named alpha II, consists of three transparent storage boxes made of polypropylene. The aquaculture resides in a 40x30x30 cm box at the bottom of the vertically stacked system. A submersible heater keeps the roughly 35 Liters of water at the correct temperature. An aerator feeds an air stone inside the aquaculture to ensure the perfect level of dissolved oxygen. A bilge pump is used for water transportation. A watertight led tube is responsible for day and night cycle inside the module. The floor of the box is covered with gravel suited for aquariums that has no apparent erosion changing the PH of the system. A lid covers the box.
+			<br/><br/>
+			The hydroculture sits on top of the aquaculture. The dimensions of the box are 40x30x30 cm. It is equipped with a water-sensor that measures electrical resistance between a total of three contacts. As soon as water touches the contacts, resistance drops and the sensor is able to detect the water-level. A watertight sensor measures the temperature of the grow media and another heater makes sure the roots of the plants feel comfortable. For your being able to see your leafy friends even better, we installed another led tube. The grow bed is filled with inflated clay pebbles with a grain of 8-14 mm.
+			<br/><br/>
+			The top cover of the system is made out of another box. It rests on the hydroculture-box upside down so that the floor is facing upwards. The top case holds a digital temperature and humidity sensor. A light intensity sensor lets your robot decide wheather additional electric lighting is needed or not. If so, a 220 V AC, 60 W full spectrum fluorescent lamp does the job. The aerator that supplies the aquaculture with oxygen is mounted to the top of the cover. This way, the warm air of the hydroculture module is used to heat part of the aquaculture. On the side of the box a 40 mm fan takes care of regulating temperature and humidity. A webcam let's you visit your loved ones anytime.
+			</p><br/><br/><br/>
+			<h3>media transportation</h3>
+			<p> Water transportation is established by a transparent acrylic pipe, mounted to the side of the box, reaching from the pump in the aquaculture to the top of the growbed. The pipe is flow and return at the same time. Parallel to the water-pipe, all the way from the aerator in the top case to the airstone in the aquaculture, a second pipe handles air transportation. Electric power and data signals are transported by a 24-pin atx cable integrated into each of the three boxes. 
+			<br/><br/>
+Between the boxes, water, air and electric signal lines are connected through sockets, ensuring a fast and easy disassambly of the individual modules.
+			</p><br/><br/><br/>
+		</div>
+		<div class="col-md-5 col-md-offset-1">
+		<h3>electronics</h3>
+		<p>On top of the system all electronics rest between two lids. For easy accessability, the lids can be flipped open. All actors of the system are connected to relays. Aerator and light are triggered by a 2 channel machine tool relay board and remaining actors are hooked up to an 8 channel machines tool relay board. The relays are capable of switching 240 V alternating current, as well as 40 V direct current, at up to 10 A with a 3-5 V direct current input on the coils. For safety reasons, switching and coil current are separated by an opto-coupler.
+		<br/><br/>
+		The relay boards and most of the actors are powered by a micro-atx power supply unit mounted to the side of the upmost box. The PSU is short-circuited in order to run without a computer mainboard.
+		<br/><br/>
+An Arduino acts as the nervous-system of the robot, connecting the sensors and switching all actors regarding to decition trees. All sensor measurements, actor states and other meta data is transmitted to a raspberryPi via serial connection, in the form of JSON.
+		<br/><br/>
+		A credit-card-sized, open source computer called raspberryPi that features an ARM processor running at 1 GHz and with 512 MB RAM serves as the brain of the robot. The operating system used is an ARM ported version of Debian Wheezy, a Linux based system. Brain functions are established by nodejs. A mongoDB holds all the robots' lovely memories of its human, green and wet friends. The interface, based on twitter bootstrap ensures communication with the robot from anywhere, at any time and with any webbrowser. The robot supports WIFI for an easy integration into any home-network.
+		<br/><br/>
+		An USB-hub lets you connect even more gadgets to your system.
+		</p>
 		</div>
 	</div>	
 </div>
