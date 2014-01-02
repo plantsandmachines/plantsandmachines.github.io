@@ -129,6 +129,21 @@ h1, h2, h3, h4, h5 {
 	height: 27.3em;
 	margin-top: 0.5em;
 }
+
+.robot-iso {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/robotiso.png') center left no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:27rem;
+	width: 27rem;
+	margin-top: 0.7em;
+	margin-left: 12px;
+}
+
 .divider {
 	width: 25em;
 }
@@ -180,11 +195,6 @@ hr {
 	font-weight: bold;
 	color: #fff;
 	line-height: 30rem; 
-}
-.robot-iso {
-	border: 1px solid #d3d3d3;
-	background-color: #f3f3f3;
-	padding-bottom: 14.5em;
 }
 #robot .tooltip-inner {
 	font-size: 3rem;
@@ -378,4 +388,10 @@ hr {
 
 .grey {
 	background-color: #d3d3d3;
+}
+
+.meta {
+	margin-top: -4em;
+	line-height: 5em;
+	margin-bottom: -4em;
 }
