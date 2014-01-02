@@ -182,9 +182,14 @@ hr {
 	line-height: 30rem; 
 }
 .robot-iso {
-	border: 1px solid #d3d3d3;
-	background-color: #f3f3f3;
+	background: url('/images/landing-page/threeboxes.png') top center no-repeat;
 	padding-bottom: 14.5em;
+	height: 29rem;
+	width: 29rem;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 #robot .tooltip-inner {
 	font-size: 3rem;
