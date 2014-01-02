@@ -55,15 +55,13 @@ title: plants-and-machines
 <div id="robot" class="jumbotron header-half">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
-				<div class="robot_cad"></div>
-				<div class="robot_cad"></div>
-				<div class="robot_cad"></div>
+			<div class="col-md-3 robot_cad">
+			<!-- <img src="images/landing-page/robot.png"> -->
 			</div>
 			<div class="col-md-9  col-md-offset-0 text-left">
 				<h2 class="intro lead text-center">the ultimate spa for nature</h2>
 				<p class="lead normal text-center">
-					A sensitive robot with fine actors to watch over and care for its <br>biological friends.
+					A sensing robot with fine actors to watch over and care for its <br>biological friends.
 				</p>
 				<hr/>	
 				<div id="features" class="row text-center features">
@@ -227,26 +225,24 @@ title: plants-and-machines
 
 <div id="theend">
 	<div class="container margin-bottom">
-			<div class="row" >			
-				<div class="col-md-12">
-				
-					<!-- ASCII BOTS -->
-	
-					<div class="row">
-						<div id="abot" class="asciibot col-md-5 text-center"></div>
-						<div id="bbot" class="asciibot col-md-2 text-center"></div>	
-						<div id="cbot" class="asciibot col-md-5 text-center"></div>	
-					</div>
-				
+		<div class="row" >			
+			<div class="col-md-12">
 			
-					<!-- WHY -->
+				<!-- WHY -->
 
-					<p class="intro lead text-center">
-						Give nature a place called home.
-					</p>
-				</div>
+				<p class="intro lead text-center">
+					Give nature a place called home.
+				</p>
 			</div>
-			<!-- ROBOTS -->
+		</div>
+
+		<!-- ASCII BOTS -->
+		<div class="row">
+			<div class="col-md-12">
+				<div id="abot" class="asciibot col-md-4 text-center"></div>
+				<div class="asciibot col-md-4 text-center">✿✿✿</div>
+				<div id="cbot" class="asciibot col-md-4 text-center"></div>	
+			</div>
 		</div>
 	</div>
 </div>
@@ -254,6 +250,7 @@ title: plants-and-machines
 
 
 <!-- BLOG ENTRIES -->
+<<<<<<< HEAD
 <!--
 <div id="blog" class="container">
 	<div class="row">
@@ -265,3 +262,10 @@ title: plants-and-machines
 	</div>
 </div>
 -->
+=======
+
+			{% for post in site.posts|slice(1) %}
+				{% include post-item-12.html %}
+			{% endfor %}
+
+>>>>>>> 383869bfa8594063bdfb638332949c38c8a523d3

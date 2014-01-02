@@ -118,11 +118,16 @@ h1, h2, h3, h4, h5 {
 	padding-bottom: 2rem;
 }
 .robot_cad {
-	width: 95%;
-	height: 9em;
-	border: 1px solid #d3d3d3;
-	background-color: #f3f3f3;
-	margin-bottom: 0.2em;
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/robot.png') center left no-repeat;
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+	height: 27.3em;
+	margin-top: 0.5em;
 }
 .divider {
 	width: 25em;
@@ -206,6 +211,7 @@ hr {
 	overflow: hidden;
 	content: "";
 	display: block;
+	background-color: white;
 }
 .jumbotron .thumbnail,
 #bot .thumbnail {
@@ -349,7 +355,27 @@ hr {
 	text-align: justify;
 }
 .aquaponic img {
-	width: 82%;
+	width: 50%;
 	height: auto;
 	margin-top: 3px;
+	margin-bottom: 8em;
+}
+
+.license {
+	font-size: 1em;
+	line-height: 1em;
+	margin-top: 2em;
+}
+
+.posts .caption p {
+	font-size: 1.5em;
+}
+
+.postimg img {
+	margin-left: -2em;	
+	width: 110%;
+}
+
+.grey {
+	background-color: #d3d3d3;
 }

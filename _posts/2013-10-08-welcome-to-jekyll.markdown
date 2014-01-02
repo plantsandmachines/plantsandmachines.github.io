@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2013-10-08 12:49:16
 categories: jekyll update
-teaserimage: /images/landinpage.png
+teaserimage: /images/landing-page/landinpage.png
 teaserimagealt: this is the teaser title
 
 ---
