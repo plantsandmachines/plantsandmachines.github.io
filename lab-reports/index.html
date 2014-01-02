@@ -6,20 +6,6 @@ title: lab reports
 <div id="lab" class="jumbotron header-half title_height">
 </div>
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-6"> 
-			<h2 class="">Putting the bot back into botanics<div class="text-right pull-right">[°_°]</div></h2>
-			{% for post in site.posts|slice(1) %}
-				{% include post-item-12.html %}
-			{% endfor %}
-		</div>
-		<!-- col 2 -->
-		<div class="col-md-6">
-			<h2 class="">why do robots?<div class="pull-right text-right">\[°-°],</div></h2> 
-			{% for post in site.posts|slice(1) %} 
-				{% include post-item-12.html %}
-			{% endfor %}
-		</div>
-	</div>
-</div>
+{% for post in site.posts|slice(1) %}
+	{% include post-item-12.html %}
+{% endfor %}
