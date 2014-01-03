@@ -344,10 +344,10 @@ hr {
 	border: none;
 }
 .margin-bottom {
-	margin-bottom: 15rem;
+	margin-bottom: 12rem;
 }
 .margin-top {
-	margin-top: 10rem;
+	margin-top: 12rem;
 }
 #aquaponic {
 	line-height: 3.5rem;
@@ -367,7 +367,7 @@ hr {
 }
 
 .posts .caption p {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	text-align: justify;
 }
 
@@ -426,4 +426,7 @@ hr {
 iframe {
 	width: 100%;
 	height: 500px;
+}
+#theend {
+	margin: 25rem;
 }

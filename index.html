@@ -16,7 +16,7 @@ title: plants-and-machines
 		<div class="col-md-12"> 
 			<p class="intro lead text-center">
 			<i>For thousands of years nature has been<br/> taking care of us.</i>
-			</p>
+			</p><br><br><br>
 			<p class="lead text-center">
 				
 				<br>We think it is time to return some <strong>love</strong>.
@@ -52,7 +52,7 @@ title: plants-and-machines
 <!-- ROBOT  -->
 
 <div id="robot" class="jumbotron header-half">
-	<div class="container">
+	<div class="container margin-top margin-bottom">
 		<div class="row">
 			<div class="col-md-3 robot_cad">
 			<!-- <img src="images/landing-page/robot.png"> -->
@@ -140,7 +140,7 @@ title: plants-and-machines
 <div id="interface_features" class="container">
 	<div class="row features_interface text-center">
 		<div class="col-md-9 col-md-offset-3">
-		<div class="row">
+		<div class="row margin-bottom">
 		<div class="col-md-4">
 			<img src="images/landing-page/icon_wifi.png">
 			<h3>wifi enabled</h3>
@@ -249,6 +249,6 @@ title: plants-and-machines
 
 
 <!-- BLOG ENTRIES -->
-			{% for post in site.posts|slice(1) %}
-				{% include post-item-12.html %}
-			{% endfor %}
+	{% for post in site.posts|slice(1) %}
+		{% include post-item-12.html %}
+	{% endfor %}
