@@ -9,7 +9,7 @@
           <h3>{{ post.title }}</h3>
 	  <p>{{ post.tags }}</p>	
           <p>{{ post.date | date_to_string }}</p><br>
-          <p>{{ post.content | strip_html | truncatewords:75}}<br><br></p>
+          <p>{{ post.content | strip_html | truncatewords:60}}<br><br></p>
           <p><a  href="{{ post.url }}" class="btn btn-default" role="button">tell me more</a></p><br><br>
         </div>
       </div>

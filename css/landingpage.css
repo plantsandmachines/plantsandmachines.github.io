@@ -81,17 +81,6 @@ h1, h2, h3, h4, h5 {
 
 
 }
-#lab {
-	position: relative;
-	overflow: hidden;
-	background: url('/images/landing-page/whiteboard.jpg') center left no-repeat;	
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-	         -moz-background-size: cover;
-	           -o-background-size: cover;
-	              background-size: cover;
-
-}
 #robotic {
 	position: relative;
 	overflow: hidden;
@@ -106,7 +95,7 @@ h1, h2, h3, h4, h5 {
 #contact {
 	position: relative;
 	overflow: hidden;
-	background: url('/images/landing-page/contact.jpg') center left no-repeat;
+	background: url('/images/landing-page/whiteboard.jpg') center left no-repeat;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	         -moz-background-size: cover;
@@ -378,7 +367,8 @@ hr {
 }
 
 .posts .caption p {
-	font-size: 1.5em;
+	font-size: 2.5rem;
+	text-align: justify;
 }
 
 .postimg img {
@@ -386,6 +376,14 @@ hr {
 	width: 110%;
 }
 
+.med-post-img {
+	width: 100%;
+	height: auto;
+}
+	
+.jumbotron {
+	padding-top:0px;
+}
 .grey {
 	background-color: #d3d3d3;
 }
@@ -423,4 +421,9 @@ hr {
 }
 .impressum {
 	text-align: justify;
+}
+
+iframe {
+	width: 100%;
+	height: 500px;
 }

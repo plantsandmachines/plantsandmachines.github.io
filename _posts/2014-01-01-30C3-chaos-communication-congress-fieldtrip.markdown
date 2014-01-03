@@ -8,16 +8,45 @@ teaserimagealt: this is a post image
 
 ---
 
-Leorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+We just returned from our very first fieldtrip. 
+Last november we were invited to have a presentation about our project at the 30th chaos communication congress in Hamburg.
+For this event we decided to build a brand new prototype, being more spa-like than the last one. And of course an appropriate website needed to be build to show and document our work. So that in case of a blackout on stage, people would still get what we'd wanted to say...
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.   
+It was a rather thrilling time preparing for our trip but we manged to get the prototype and the website just ready.
+The only question was how to get the prototype from Weimar to Hamburg. We decided that dex, bastian and I each take home one module over christmas to meet up for the congress in hamburg.
 
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.   
+<div class="container margin-top margin-bottom">
+	<div class="row">
+		<div class="col-md-6">
+			<img class="med-post-img" src="/images/landing-page/cch.jpg"/>
+		</div>
+		<div class="col-md-6">
+			<img class="med-post-img" src="/images/landing-page/cch2.jpg"/>
+		</div>
+	</div>
+</div>
 
-Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.   
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.   
+assembly maschinenraum
+put the bot back together
 
-At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+
+had a talk
+
+<div class="container margin-top margin-bottom">
+	<div class="row">
+		<div class="col-md-12">
+			<iframe src="//www.youtube.com/embed/e-6jn3rQJG8" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
+
+
+meet a lot of nice people with great ideas
+
+
+got an incredible amount of input from talks and projects during the event
+
+
+will definetly be there for the 31c3
