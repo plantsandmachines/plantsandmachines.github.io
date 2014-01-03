@@ -31,7 +31,6 @@ title: plants-and-machines
 	<div class="container">
 		<div class="row">
 			<div class="col-md-1 formula text-center">3×</div>
-			<!--div class="col-md-1 formula text-center">×</div-->
 			<div class="col-md-3 robot-iso"></div>
 			<div class="col-md-1 formula text-center">+</div>
 			<div class="col-md-3 raspberry-pi"></div>
@@ -250,8 +249,12 @@ title: plants-and-machines
 
 
 <!-- BLOG ENTRIES -->
-
+<div id="blog" class="container">
+	<div class="row">
+		<div class="col-md-12"> 
 			{% for post in site.posts|slice(1) %}
 				{% include post-item-12.html %}
 			{% endfor %}
-
+		</div>
+	</div>
+</div>
