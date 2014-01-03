@@ -395,3 +395,32 @@ hr {
 	line-height: 5em;
 	margin-bottom: -4em;
 }
+
+.about {
+	line-height: 3.5rem;
+	font-weight: lighter;
+}
+.about p {
+	padding: 0px;
+}
+
+.ppl {
+	font-size: 2rem;
+	line-height: 3.5rem;
+	font-weight: lighter;
+	text-align: justify;
+}
+
+.contact {
+	font-size: 4rem;
+	line-height: 4.5rem;
+	font-weight: lighter;
+}
+
+.contact .small {
+	font-size: 2.4rem;
+	line-height: 0rem;	
+}
+.impressum {
+	text-align: justify;
+}

@@ -3,7 +3,7 @@ layout: post
 title: "30C3 chaos communication congress fieldtrip"
 date: 2014-01-01 16:16:16
 tags: [events, talks, fieldtrips] 
-teaserimage: /images/landing-page/ren-001.jpg
+teaserimage: /images/landing-page/30c3.jpg
 teaserimagealt: this is a post image
 
 ---
