@@ -48,7 +48,7 @@ Between the boxes, water, air and electric signal lines are connected through so
 		<br/><br/>
 		The relay boards and most of the actors are powered by a micro-atx power supply unit mounted to the side of the upmost box. The PSU is short-circuited in order to run without a computer mainboard.
 		<br/><br/>
-An Arduino acts as the nervous-system of the robot, connecting the sensors and switching all actors regarding to decition trees. All sensor measurements, actor states and other meta data is transmitted to a raspberryPi via serial connection, in the form of JSON.
+An Arduino acts as the nervous-system of the robot, connecting the sensors and switching all actors regarding to decision trees. All sensor measurements, actor states and other meta data is transmitted to a raspberryPi via serial connection, in the form of JSON.
 		<br/><br/>
 		A credit-card-sized, open source computer called raspberryPi that features an ARM processor running at 1 GHz and with 512 MB RAM serves as the brain of the robot. The operating system used is an ARM ported version of Debian Wheezy, a Linux based system. Brain functions are established by nodejs. A mongoDB holds all the robots' lovely memories of its human, green and wet friends. The interface, based on twitter bootstrap ensures communication with the robot from anywhere, at any time and with any webbrowser. The robot supports WIFI for an easy integration into any home-network.
 		<br/><br/>
