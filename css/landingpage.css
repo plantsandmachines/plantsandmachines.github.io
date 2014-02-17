@@ -1,0 +1,442 @@
+/**************************************************
+
+LANDING-PAGE
+
+**************************************************/
+body {
+	font-family: 'Dosis', sans-serif;
+	font-weight: lighter;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: bolder;
+}
+
+.nav {
+	font-size: 1.4em;
+	font-weight: lighter;	
+}
+.navbar-header {
+	font-weight: normal;
+}
+#home {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/sensors.jpg') center left no-repeat;
+	background-attachment: fixed;	
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+}
+#interface {
+	position: relative;
+	overflow: visible;
+	background: url('/images/landing-page/the_girl.png') center left no-repeat;	
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+}
+#robot {
+	position: relative;
+	overflow: hidden;
+        background-color: #fff;
+	padding-bottom: 4em;
+	font-size: 1.5em;
+     /* background: url('/images/landing-page/ren-001.jpg') center left no-repeat;	
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+     */
+}
+#aquaponic {
+	font-size: 2rem;
+	font-weight: lighter;
+}
+#ecosystem {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/ecosystem.jpg') center left no-repeat;	
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+}
+#ecosystem2 {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/chilli.jpg') center left no-repeat;	
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+
+}
+#robotic {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/lab.jpg') center left no-repeat;	
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+}
+#contact {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/whiteboard.jpg') center left no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+}
+#robot .intro {
+	padding-bottom: 2rem;
+}
+.robot_cad {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/robot.png') center left no-repeat;
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+	height: 27.3em;
+	margin-top: 0.5em;
+}
+
+.robot-iso {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/robotiso.png') center left no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:27rem;
+	width: 27rem;
+	margin-top: 0.7em;
+	margin-left: 12px;
+}
+
+.divider {
+	width: 25em;
+}
+hr {
+	color: #9FD400;
+	background-color: #9FD400;
+	height: 1px;
+	width: 45%
+}
+#formula {
+	background-color: #9FD400;
+	color: #fff;
+	padding-top: 7rem;
+	margin-bottom: 3em;
+}
+#formula p {
+	font-size: 4rem;
+}
+.lead p {
+	padding-top: 4rem;
+	padding-bottom: 6rem;
+}
+#formula .arduino {
+	margin: 0 auto;
+	background: url('/images/landing-page/arduino-inside.png') top center no-repeat;	
+	height: 29rem;
+	width: 29rem;
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+}
+#formula .raspberry-pi {
+	margin: 0 auto;
+	background: url('/images/landing-page/raspberry-pi.png') top center no-repeat;	
+	height: 29rem;
+	width: 29rem;
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+
+}
+.formula {
+	vertical-align: middle;	
+	height: 30rem;
+	font-size: 8rem;
+	font-weight: bold;
+	color: #fff;
+	line-height: 30rem; 
+}
+#robot .tooltip-inner {
+	font-size: 3rem;
+	min-width: 400px;
+	text-align: left;
+	margin-left: 2px;
+	padding: 19px 19px 37px;
+	background-color: white;
+	color: black;
+	border: 1px solid #d3d3d3;
+	
+}
+#a-place-called-home {
+	position: relative;
+	overflow: hidden;
+	background: url('/images/landing-page/a-place-called-home.png') top left no-repeat;	
+	-webkit-background-size: cover;
+	         -moz-background-size: cover;
+	           -o-background-size: cover;
+	              background-size: cover;
+}
+.jumbotron {
+	position: relative;
+	overflow: hidden;
+	content: "";
+	display: block;
+	background-color: white;
+}
+.jumbotron .thumbnail,
+#bot .thumbnail {
+	background: transparent;
+	border: none;
+}
+#bot {
+	line-height: 3.5rem;
+	font-size: 2rem;
+	font-weight: lighter;
+	text-align: justify;
+}
+#law {
+	font-size: 2rem;
+	line-height: 3.5rem;
+	font-weight: lighter;
+}
+#law hr {
+	margin-top: 13em;
+}
+.jumbotron .w-bg {
+
+}
+.jumbotron.header-half {
+	padding-bottom: 0;
+}
+.power-point {
+	font-size: 6.3rem;
+	font-weight: 500;
+	margin-top: 4rem;
+	margin-bottom: 7rem;
+}
+.asciibot {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 3.5rem;
+	margin-top: 4rem;
+}
+.love {
+	margin-top: 8rem;
+}
+.posts {
+	margin-bottom: 5rem;
+	margin-top: 3rem;
+}
+.intro {
+	font-size: 4.3rem;
+	margin-top: 0.5em;
+}
+.lead i {
+	font-size: 6.5rem;
+	line-height: 10rem;
+	font-weight: 100;
+}
+.lead {
+	line-height: 0.5em;
+}
+.justify {
+	text-align: justify;
+}
+.icon-padding {
+	padding-top: 3rem;
+}
+.under-heading {
+	margin-top: 4rem;
+	font-size: 5.6rem;
+}
+.ard-pi {
+	width: 100%;
+	margin-top: 3rem;
+}
+.grey-bg {
+	background-color: #eeeeee;
+	color: #fff;
+	margin-top: 6rem;
+}
+.title_height {
+	height: 45rem;
+}
+.divider_img {
+	height: 33rem;
+}
+#tagline {
+	margin-bottom: 7em;
+}
+
+.normal {
+	line-height: 1.4em;
+}
+#features img,
+.features img {
+	height: 8em;
+	width: auto;
+}
+#features p,
+#botnet_features p {
+	height: 13rem;
+}
+
+.features_interface img {
+	height: 11.5em;
+	width: auto;
+}
+.features_interface {
+	margin-top: -11.5rem;
+}
+#interface_features .features_interface {
+	margin-bottom: 7em;
+}
+.features_interface p {
+	font-size: 2rem;
+}
+#botnet_features {
+	z-index: 0;
+}
+#botnet_features p {
+	height: 5em;
+}
+#botnet {
+	position: relative;
+}
+#botnet .colorbox {
+	z-index: 0;	
+	margin-top: -8rem;
+}
+
+#accordion .panel {
+	border: 0px solid #fff;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+}
+.thumbnail {
+	border: none;
+}
+.margin-bottom {
+	margin-bottom: 12rem;
+}
+.margin-top {
+	margin-top: 12rem;
+}
+#aquaponic {
+	line-height: 3.5rem;
+	text-align: justify;
+}
+.aquaponic img {
+	width: 50%;
+	height: auto;
+	margin-top: 3px;
+	margin-bottom: 8em;
+}
+
+.license {
+	font-size: 1em;
+	line-height: 1em;
+	margin-top: 2em;
+}
+
+.posts .caption p {
+	font-size: 2rem;
+	text-align: justify;
+}
+
+.postimg img {
+	margin-left: -2em;	
+	width: 110%;
+}
+
+.med-post-img {
+	width: 100%;
+	height: auto;
+}
+	
+.jumbotron {
+	padding-top:0px;
+}
+.grey {
+	background-color: #d3d3d3;
+}
+
+.meta {
+	margin-top: -4em;
+	line-height: 5em;
+	margin-bottom: -4em;
+}
+
+.about {
+	line-height: 3.5rem;
+	font-weight: lighter;
+}
+.about p {
+	padding: 0px;
+}
+
+.ppl {
+	font-size: 2rem;
+	line-height: 3.5rem;
+	font-weight: lighter;
+	text-align: justify;
+}
+
+.contact {
+	font-size: 4rem;
+	line-height: 4.5rem;
+	font-weight: lighter;
+}
+
+.contact .small {
+	font-size: 2.4rem;
+	line-height: 0rem;	
+}
+.impressum {
+	text-align: justify;
+}
+
+iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#theend {
+	margin: 25rem;
+}
+
+.youtube {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;`
+}

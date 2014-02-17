@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+ <div class="jumbotron title_height postimg">
+  <img data-src="holder.js/300x200" src="{{page.teaserimage}}" alt="{{page.teaserimagealt}}"/>
+</div> 
+
+<div class="lead container margin-top">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>{{ page.title }} {{page.emoji}}</h2>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="posts">
+        <div class="caption">
+          <p class="meta">{{ page.tags }}</p>
+          <p class="meta">{{ page.date | date_to_string }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p>{{ content }}</p>

@@ -1,0 +1,18 @@
+.colorbox {
+	background-color: #6C98D1;
+	color: #fff;
+	padding-top: 7rem;
+	overflow: visible;
+}
+
+
+/***
+
+FOOTER
+
+***/
+
+
+footer .jumbotron {
+	margin-bottom: 0;
+}
