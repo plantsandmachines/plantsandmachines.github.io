@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>	
-	{% include header.html %}
-    </head>
-    <body>
-	{% include navigation.html %}
-	{{content}}
-	 <footer>
-		{% include footer.html %}
-    	 </footer>
+  <head>	
+    {% include header.html %}
+    <link href="http://crowdspell.se/crowdspell.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    {% include navigation.html %}
+    {{content}}
+    <footer>
+      {% include footer.html %}
+    </footer>
 
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(["setCookieDomain", "*.plantsandmachines.github.io"]);
-  _paq.push(["trackPageView"]);
-  _paq.push(["enableLinkTracking"]);
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["setCookieDomain", "*.plantsandmachines.github.io"]);
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
 
-  (function() {
-    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://analytics.plantsandmachines.de/";
-    _paq.push(["setTrackerUrl", u+"piwik.php"]);
-    _paq.push(["setSiteId", "1"]);
-    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
-    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Piwik Code -->
+      (function() {
+         var u=(("https:" == document.location.protocol) ? "https" : "http") + "://analytics.plantsandmachines.de/";
+         _paq.push(["setTrackerUrl", u+"piwik.php"]);
+         _paq.push(["setSiteId", "1"]);
+         var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+         g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+       })();
+     </script>
+     <!-- End Piwik Code -->
 
-<!-- Piwik Image Tracker -->
-<img src="https://analytics.plantsandmachines.de/piwik.php?idsite=1&amp;rec=1" style="border:0" alt="" />
-<!-- End Piwik -->
-
-   </body>
+     <!-- Piwik Image Tracker -->
+       <img src="https://analytics.plantsandmachines.de/piwik.php?idsite=1&amp;rec=1" style="border:0" alt="" />
+     <!-- End Piwik -->
+     <script async src="http://crowdspell.se/crowdspell.min.js" id="crowdspell" data-apikey="8d4dfdf0-0970-4383-893a-def3e93e65e3"></script>
+  </body>
 </html>
