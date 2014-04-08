@@ -26,9 +26,9 @@ h1, h2, h3, h4, h5 {
 	background: url('/images/landing-page/sensors.jpg') center left no-repeat;
 	background-attachment: fixed;	
 	-webkit-background-size: cover;
-	         -moz-background-size: cover;
-	           -o-background-size: cover;
-	              background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 #interface {
 	position: relative;
@@ -36,23 +36,17 @@ h1, h2, h3, h4, h5 {
 	background: url('/images/landing-page/the_girl.png') center left no-repeat;	
 	background-attachment: fixed;
 	-webkit-background-size: cover;
-	         -moz-background-size: cover;
-	           -o-background-size: cover;
-	              background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 
 }
 #robot {
 	position: relative;
 	overflow: hidden;
-        background-color: #fff;
-	padding-bottom: 4em;
+  background-color: #fff; 
 	font-size: 1.5em;
-     /* background: url('/images/landing-page/ren-001.jpg') center left no-repeat;	
-	-webkit-background-size: cover;
-	         -moz-background-size: cover;
-	           -o-background-size: cover;
-	              background-size: cover;
-     */
+
 }
 #aquaponic {
 	font-size: 2rem;
@@ -64,9 +58,9 @@ h1, h2, h3, h4, h5 {
 	background: url('/images/landing-page/ecosystem.jpg') center left no-repeat;	
 	background-attachment: fixed;
 	-webkit-background-size: cover;
-	         -moz-background-size: cover;
-	           -o-background-size: cover;
-	              background-size: cover;
+		 -moz-background-size: cover;
+		 	 -o-background-size: cover;
+			    background-size: cover;
 
 }
 #ecosystem2 {
@@ -75,9 +69,9 @@ h1, h2, h3, h4, h5 {
 	background: url('/images/landing-page/chilli.jpg') center left no-repeat;	
 	background-attachment: fixed;
 	-webkit-background-size: cover;
-	         -moz-background-size: cover;
-	           -o-background-size: cover;
-	              background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
 
 
 }
@@ -87,9 +81,9 @@ h1, h2, h3, h4, h5 {
 	background: url('/images/landing-page/lab.jpg') center left no-repeat;	
 	background-attachment: fixed;
 	-webkit-background-size: cover;
-	         -moz-background-size: cover;
-	           -o-background-size: cover;
-	              background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 
 }
 #contact {
@@ -98,25 +92,21 @@ h1, h2, h3, h4, h5 {
 	background: url('/images/landing-page/whiteboard.jpg') center left no-repeat;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
-	         -moz-background-size: cover;
-	           -o-background-size: cover;
-	              background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 
-}
-#robot .intro {
-	padding-bottom: 2rem;
 }
 .robot_cad {
 	position: relative;
 	overflow: hidden;
-	background: url('/images/landing-page/robot.png') center left no-repeat;
-	-webkit-background-size: cover;
-	         -moz-background-size: cover;
-	           -o-background-size: cover;
-	              background-size: cover;
-
 	height: 27.3em;
 	margin-top: 0.5em;
+	background: url('/images/landing-page/robot.png') center left no-repeat;
+	-webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
 .robot-iso {
@@ -124,9 +114,9 @@ h1, h2, h3, h4, h5 {
 	overflow: hidden;
 	background: url('/images/landing-page/robotiso.png') center left no-repeat;
 	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+		 -moz-background-size: cover;
+		 	 -o-background-size: cover;
+		 	 		background-size: cover;
 	height:27rem;
 	width: 27rem;
 	margin-top: 0.7em;
@@ -145,16 +135,11 @@ hr {
 #formula {
 	background-color: #9FD400;
 	color: #fff;
-	padding-top: 7rem;
-	margin-bottom: 3em;
 }
 #formula p {
 	font-size: 4rem;
 }
-.lead p {
-	padding-top: 4rem;
-	padding-bottom: 6rem;
-}
+
 #formula .arduino {
 	margin: 0 auto;
 	background: url('/images/landing-page/arduino-inside.png') top center no-repeat;	
@@ -257,15 +242,11 @@ hr {
 }
 .intro {
 	font-size: 4.3rem;
-	margin-top: 0.5em;
 }
 .lead i {
 	font-size: 6.5rem;
 	line-height: 10rem;
 	font-weight: 100;
-}
-.lead {
-	line-height: 0.5em;
 }
 .justify {
 	text-align: justify;
@@ -284,18 +265,10 @@ hr {
 .grey-bg {
 	background-color: #eeeeee;
 	color: #fff;
-	margin-top: 6rem;
 }
 .title_height {
 	height: 45rem;
 }
-.divider_img {
-	height: 33rem;
-}
-#tagline {
-	margin-bottom: 7em;
-}
-
 .normal {
 	line-height: 1.4em;
 }
@@ -304,17 +277,13 @@ hr {
 	height: 8em;
 	width: auto;
 }
-#features p,
-#botnet_features p {
-	height: 13rem;
-}
 
 .features_interface img {
 	height: 11.5em;
 	width: auto;
 }
 .features_interface {
-	margin-top: -11.5rem;
+	margin-top: -5rem;
 }
 #interface_features .features_interface {
 	margin-bottom: 7em;
@@ -431,7 +400,7 @@ iframe {
 	height: 100%;
 }
 #theend {
-	margin: 25rem;
+
 }
 
 .youtube {
