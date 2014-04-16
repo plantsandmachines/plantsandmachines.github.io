@@ -4,7 +4,7 @@ title: "30C3 chaos communication congress fieldtrip"
 date: 2014-01-01 16:16:16
 tags: [events, talks, fieldtrips] 
 teaserimage: /images/landing-page/30c3.jpg
-teaserimagealt: this is a post image
+teaserimagealt: showing 3 of 5 guys behinf the plants and machines project 
 
 ---
 
