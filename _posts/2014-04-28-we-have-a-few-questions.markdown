@@ -20,14 +20,25 @@ Please be so kind, help us out, sacrifice a few minutes of your time and fill ou
 <br>
 And because we know that you like free loot you'll have the chance to win something. To make it even more exiting we won't tell you what it is until you finish the survey...
 <br><br>
-<iframe frameborder="0" style="height: 100%; width: 100%; " src="https://www.murvey.com/s?535639a273d8fb8b6800357b&fill=true"></iframe>
-<br><br>
 - mrv
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div class ="row">
+		<div class="col-md-9">
+			<div class="posts">
+				<div class="caption margin-bottom">
+		
+					<iframe frameborder="0" style="height: 100%; width: 100%; " src="https://www.murvey.com/s?535639a273d8fb8b6800357b&fill=true"></iframe>
+					<br><br>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
 </div>
 
 
