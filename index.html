@@ -250,7 +250,7 @@ title: plants-and-machines
 
 <!-- BLOG ENTRIES -->
 {% for post in site.posts|slice(1) %}
-	{% unless post.tags == "hide" %}
+	{% unless post.tags contains 'hide' %}
 		{% include post-item-12.html %}
 	{% endunless %}	
 {% endfor %}
