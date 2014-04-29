@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "wir haben ein paar Fragen"
-date: 2014-04-28 14:14:14
+date: 2014-04-28 14:14:15
 tags: [hide] 
 teaserimage: /images/landing-page/survey.jpg
 teaserimagealt: this is a post image
