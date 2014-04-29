@@ -1,9 +1,4 @@
-.colorbox {
-	background-color: #6C98D1;
-	color: #fff;
-	padding-top: 7rem;
-	overflow: visible;
-}
+
 .cover {
 	position: relative;
 	overflow: hidden;
@@ -13,14 +8,48 @@
 	-o-background-size: cover;
 	background-size: cover;
 }
-
+.colorbox-green {
+	background: #9FD400;
+	color: #fff;
+}
+.colorbox-blue {
+	background: #6C98D1;
+	color: #fff;
+}
 /***
 
 FOOTER
 
 ***/
+footer a {
+	font-size: 1.6em;
+	line-height: 1.8em;
+}
+footer .peer-icons {
+	max-width: 300px;
+	display: block;
+	margin: 0 auto;
+}
+footer .github {
+	padding: 110px 0 30px 0;
+	background-image: url('/images/basics/github-octocat.png');
+	background-repeat: no-repeat;
+	background-position: center top;
 
+}
+footer .github li {
+	list-style: none;
+	height:  2em;
 
-footer .jumbotron {
-	margin-bottom: 0;
+}
+footer .github li a {
+	display: block;
+}
+footer .hackaday {
+	display: block;
+}
+footer .hackaday img {
+	width: auto;
+	margin: 0 auto;
+	display: block;
 }
