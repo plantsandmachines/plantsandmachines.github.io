@@ -14,11 +14,11 @@ teaserimagealt: this is a post image
 			<div class="posts">
 				<div class="caption margin-bottom">
 					<p>
-Hey there, we're building our next prototype right now. This time we'll move away from arduino and use our very own PCBs. We're also planning on having a custom made case for our ecosystem. But before we get deep into manufactoring hard- and software we'd love to get some answers to a few questions we have.
+Hi, wir bauen momentan an einem weiteren Prototypen. Dieses Mal werden wir anstatt von Arduinos unsere eigenen PCBs benutzen. Ausserdem entwerfen wir spezielle boxen für unsere Ökosysteme. Aber bevor wir tief in die Herstellung der Hard- und Software eintauchen, suchen wir einige Antworten auf ein paar Fragen die wir uns stellen.
 <br><br>
-Please be so kind, help us out, sacrifice a few minutes of your time and fill out this survey. With your help we'll be able to focus our development effords on the most vital features, the stuff YOU see to be most important. It helps if you kind of know what the plants & machines project is about. So in case don't allready, check out <a href="http://www.plantsandmachines.de">this page</a> beforehand, to get a brief outline.
+Bitte sei so gut, hilf uns, opfere ein paar Minuten deiner Zeit und fülle diese Umfrage aus. Mit deiner Hilfe, sind wir in der Lage unsere Entwicklungsanstrengungen auf die wirklich essentiellen Dinge zu fokussieren, die Dinge die DIR am wichtigsten sind. Es hilft wenn du weißt, womit sich das plants & machines Projekt beschäftigt. Also, falls du es noch nicht weißt, schau dir am besten vorher <a href="http://www.plantsandmachines.de">diese Seite</a> an, um einen Überblick zu bekommen.
 <br><br>
-And because we know that you like free loot you'll have the chance to win something. To make it even more exiting we won't tell you what it is until you finish the survey...
+Und weil wir wissen, dass du Geschenke magst, hast du die Chance etwas zu gewinnen. Um es noch spannender zu machen, sagen wir dir nicht was es ist, bis du mit der Umfrage fertig bist...
 <br><br>
 - mrv
 					</p>
@@ -29,7 +29,7 @@ And because we know that you like free loot you'll have the chance to win someth
 	<div class ="row">
 		<div class="col-md-9">
 			<div class="iframe">
-				<iframe frameborder="0" style="height: 100%; width: 100%; " src="https://www.murvey.com/s?535639a273d8fb8b6800357b&fill=true"></iframe>
+				<iframe frameborder="0" style="height: 100%; width: 100%; " src="https://www.murvey.com/s?535a410c8875335410002b21&fill=true"></iframe>
 				<br><br>
 			</div>
 		</div>
