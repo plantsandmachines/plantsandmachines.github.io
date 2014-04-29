@@ -3,6 +3,7 @@ layout: post
 title: "we have a few qestions"
 date: 2014-04-28 14:14:14
 tags: [hide] 
+catgories: [hide]
 teaserimage: /images/landing-page/survey.jpg
 teaserimagealt: this is a post image
 
