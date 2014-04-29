@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5 {
 
 .nav {
 	font-size: 1.4em;
-	font-weight: lighter;	
+	font-weight: lighter;
 }
 .navbar-header {
 	font-weight: normal;
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5 {
 	position: relative;
 	overflow: hidden;
 	background: url('/images/landing-page/sensors.jpg') center left no-repeat;
-	background-attachment: fixed;	
+	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5 {
 #interface {
 	position: relative;
 	overflow: visible;
-	background: url('/images/landing-page/the_girl.png') center left no-repeat;	
+	background: url('/images/landing-page/the_girl.png') center left no-repeat;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5 {
 #robot {
 	position: relative;
 	overflow: hidden;
-  background-color: #fff; 
+  background-color: #fff;
 	font-size: 1.5em;
 
 }
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5 {
 #ecosystem {
 	position: relative;
 	overflow: hidden;
-	background: url('/images/landing-page/ecosystem.jpg') center left no-repeat;	
+	background: url('/images/landing-page/ecosystem.jpg') center left no-repeat;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 		 -moz-background-size: cover;
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 #ecosystem2 {
 	position: relative;
 	overflow: hidden;
-	background: url('/images/landing-page/chilli.jpg') center left no-repeat;	
+	background: url('/images/landing-page/chilli.jpg') center left no-repeat;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5 {
 #robotic {
 	position: relative;
 	overflow: hidden;
-	background: url('/images/landing-page/lab.jpg') center left no-repeat;	
+	background: url('/images/landing-page/lab.jpg') center left no-repeat;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
      -moz-background-size: cover;
@@ -110,17 +110,24 @@ h1, h2, h3, h4, h5 {
 }
 
 .robot-iso {
+	margin: 0 auto;
+	height: 29rem;
+	width: 29rem;
 	position: relative;
 	overflow: hidden;
-	background: url('/images/landing-page/robotiso.png') center left no-repeat;
+	background: url('/images/landing-page/robotiso-blue.png') center left no-repeat;
 	-webkit-background-size: cover;
 		 -moz-background-size: cover;
 		 	 -o-background-size: cover;
 		 	 		background-size: cover;
-	height:27rem;
-	width: 27rem;
-	margin-top: 0.7em;
-	margin-left: 12px;
+}
+.robot-iso {
+	cursor: pointer
+}
+.robot-iso.toggled {
+	background: url('/images/landing-page/alpha-blue.png') top center no-repeat;
+	height: 550px;
+	background-size: 100%;
 }
 
 .divider {
@@ -133,16 +140,12 @@ hr {
 	width: 45%
 }
 #formula {
-	background-color: #9FD400;
-	color: #fff;
-}
-#formula p {
-	font-size: 4rem;
+
 }
 
 #formula .arduino {
 	margin: 0 auto;
-	background: url('/images/landing-page/arduino-inside.png') top center no-repeat;	
+	background: url('/images/landing-page/arduino-inside-blue.png') top center no-repeat;
 	height: 29rem;
 	width: 29rem;
 	-webkit-background-size: cover;
@@ -151,9 +154,10 @@ hr {
 	              background-size: cover;
 
 }
+
 #formula .raspberry-pi {
 	margin: 0 auto;
-	background: url('/images/landing-page/raspberry-pi.png') top center no-repeat;	
+	background: url('/images/landing-page/raspberry-pi-blue.png') top center no-repeat;
 	height: 29rem;
 	width: 29rem;
 	-webkit-background-size: cover;
@@ -162,14 +166,43 @@ hr {
 	              background-size: cover;
 
 }
+@media (min-width: 60em) and (max-width: 128em) {
+
 .formula {
-	vertical-align: middle;	
+	vertical-align: middle;
 	height: 30rem;
 	font-size: 8rem;
 	font-weight: bold;
 	color: #fff;
-	line-height: 30rem; 
+	line-height: 30rem;
 }
+}
+/* Smartphones (portrait) ----------- */
+@media (min-width: 10em) and (max-width: 60em) {
+	.formula {
+		height: 12rem;
+		font-size: 8rem;
+		line-height: 12rem;
+		margin-top: 0;
+		margin-bottom: 0;
+		vertical-align: middle;
+	}
+
+}
+.formula.result {
+	line-height: 9.5rem;
+	height: 6.5rem;
+}
+#formula #abot{
+	margin-top: 0;
+}
+#robot .asciiBot,
+#interface_features .asciiBot,
+#formula #dbot .asciiBot {
+	display: inline;
+}
+
+
 #robot .tooltip-inner {
 	font-size: 3rem;
 	min-width: 400px;
@@ -179,23 +212,36 @@ hr {
 	background-color: white;
 	color: black;
 	border: 1px solid #d3d3d3;
-	
+
+}
+#robot .robot-cad img {
+	width: 100%;
+}
+#robot #feature-home {
+	min-height: 160px;
+	padding-top: 30px;
+	padding-bot: 30px;
+}
+#robot li.active,
+#robot .nav-tabs a,
+#robot .nav-tabs {
+	border: 1px solid #fff;
 }
 #a-place-called-home {
 	position: relative;
 	overflow: hidden;
-	background: url('/images/landing-page/a-place-called-home.png') top left no-repeat;	
+			background: url('/images/landing-page/a-place-called-home.png') top left no-repeat;
 	-webkit-background-size: cover;
-	         -moz-background-size: cover;
-	           -o-background-size: cover;
-	              background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 .jumbotron {
 	position: relative;
 	overflow: hidden;
 	content: "";
 	display: block;
-	background-color: white;
+	background-color: #fff;
 }
 .jumbotron .thumbnail,
 #bot .thumbnail {
@@ -216,11 +262,11 @@ hr {
 #law hr {
 	margin-top: 13em;
 }
-.jumbotron .w-bg {
-
+.space-top {
+	padding-top: 30px;
 }
-.jumbotron.header-half {
-	padding-bottom: 0;
+.space-bot {
+	padding-bottom: 30px;
 }
 .power-point {
 	font-size: 6.3rem;
@@ -236,10 +282,7 @@ hr {
 .love {
 	margin-top: 8rem;
 }
-.posts {
-	margin-bottom: 5rem;
-	margin-top: 3rem;
-}
+
 .intro {
 	font-size: 4.3rem;
 }
@@ -274,20 +317,14 @@ hr {
 }
 #features img,
 .features img {
-	height: 8em;
-	width: auto;
+	width: 100%;
 }
 
 .features_interface img {
-	height: 11.5em;
 	width: auto;
+	margin: 0 auto;
 }
-.features_interface {
-	margin-top: -5rem;
-}
-#interface_features .features_interface {
-	margin-bottom: 7em;
-}
+
 .features_interface p {
 	font-size: 2rem;
 }
@@ -300,11 +337,10 @@ hr {
 #botnet {
 	position: relative;
 }
-#botnet .colorbox {
-	z-index: 0;	
-	margin-top: -8rem;
+#botnet .colorbox-blue {
+	z-index: 0;
+	overflow: visible;
 }
-
 #accordion .panel {
 	border: 0px solid #fff;
 	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
@@ -341,7 +377,7 @@ hr {
 }
 
 .postimg img {
-	margin-left: -2em;	
+	margin-left: -2em;
 	width: 110%;
 }
 
@@ -349,7 +385,7 @@ hr {
 	width: 100%;
 	height: auto;
 }
-	
+
 .jumbotron {
 	padding-top:0px;
 }
@@ -386,7 +422,7 @@ hr {
 
 .contact .small {
 	font-size: 2.4rem;
-	line-height: 4rem;	
+	line-height: 4rem;
 }
 .impressum {
 	text-align: justify;
@@ -402,7 +438,6 @@ iframe {
 #theend {
 
 }
-
 .youtube {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
