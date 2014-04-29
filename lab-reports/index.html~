@@ -4,7 +4,5 @@ title: lab reports
 ---
 
 {% for post in site.posts|slice(1) %}
-	{% unless post.tags contains 'hide' %}
-		{% include post-item-12.html %}
-	{% endunless %}
+	{% include post-item-12.html %}
 {% endfor %}
