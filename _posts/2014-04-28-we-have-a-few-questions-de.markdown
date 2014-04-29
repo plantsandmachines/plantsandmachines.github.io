@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "we have a few qestions"
+title: "wir haben ein paar Fragen"
 date: 2014-04-28 14:14:14
 tags: [hide] 
 teaserimage: /images/landing-page/survey.jpg
