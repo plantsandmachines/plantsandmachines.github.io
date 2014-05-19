@@ -3,7 +3,7 @@ layout: post
 title: "freifunk battlemesh convention"
 date: 2014-05-18 13:13:13
 tags: [freifunk, fieldtrips, community] 
-teaserimage: /images/landing-page/XXX.jpg
+teaserimage: /images/landing-page/battlemesh.jpg
 teaserimagealt: this is a post image
 
 ---
