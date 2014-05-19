@@ -2,10 +2,9 @@
 layout: post
 title: "wir haben ein paar Fragen"
 date: 2014-04-29 10:14:15
-tags: [hide] 
+tags: [hide]
 teaserimage: /images/landing-page/survey.jpg
 teaserimagealt: this is a post image
-
 ---
 
 <div class="container">
