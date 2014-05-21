@@ -14,36 +14,51 @@ teaserimagealt: this is a post image
 			<div class="posts">
 				<div class="caption margin-bottom">
 					<p>
+
 Last week we went to Leipzig to attend a <a href="http://www.freifunk.net/">freifunk</a> convention called <a href="http://battlemesh.org/BattleMeshV7">BattleMeshV7</a>. 
 
 Freifunk is a non-commercial NGO working on implementing WiFi mesh networks all over Europe. The goal is to have free (as in free software and in free beer) wireless infrastructure so that everyone gets unregulated access to the internet.
 
-There are a lot of different freifunk communities all over Europe and they are all developing their own flavour of mesh protocol software for common router hardware.
+There are a lot of different freifunk communities all over Europe and they're all developing their own flavor of mesh protocol software for common router hardware.
 They meet once a year to discuss newest software and hardware technologies, tell each other the latest stories and most important take on the battle for best mesh protocol.
 
-This years meeting took place in Leipzigs lokal hackerspace <a href="http://www.sublab.org/">sublab</a>. They were the perfect host prepared with very friendly locals, lots of space, drinks and a fully equipped kitchen for ad-hoc cooking.
-But the convention wasn't all about mesh networking. Eeach year the battlemesh takes place in a different country and the guys from the sublab made sure to show the international visitors around and intruduce them to the city of Leipzig.
+This years meeting took place in Leipzigs local hacker-space <a href="http://www.sublab.org/">sublab</a>. They were the perfect host prepared with very friendly locals, lots of space, drinks and a fully equipped kitchen for ad-hoc cooking.
+But the convention wasn't all about mesh networking. Each year the battlemesh takes place in a different country and the guys from the sublab made sure to show the international visitors around and introduce them to the city of Leipzig.
 
-Leipzig is a huge city with a lot of vacant lots. This enables people to use this space for community projects. We made a tour through the neighborhood to discover some of them.
-Most interesting was a urban farm called annalinde
-city farms, big property, sell food to restaurants and consumers
-showed us around
-want to tinker around with hydroponics and aquaponics
-maybe they'll need some equipment?!
+Leipzig is a huge city with a lot of vacant lots. This enables people to use this space for community projects. We made a tour through the neighborhood to discover some of them. The most interesting one was an urban farm called annalinde. On a big property inside the district of connewitz they grow all kinds of vegetables and sell the crop on weekly markets. On the lot are some pretty damaged buildings remaining from an old market garden. Annalinde build up some of these greenhouses and started using them as a nursery. They already have some hydroponic setups and are even planning on building an aquaponic system. Its an awesome project and you should really check it if you'll ever visit Leipzig (which we strongly recommend). Too far of a trip? No problem, <a href="http://annalinde-leipzig.de/">check out their page</a>.
 
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="jumbotron postimg">
+	<img src="/images/landing-page/annalinde.jpg"/>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-9">
+			<div class="posts">
+				<div class="caption margin-bottom">
+					<p>
 ### img annalinde!!!
 
 At plants & machines we love the internet and our robots do, too. Sharing our internet-access for those in need we are part of the local freifunk community called <a href="http://weimarnetz.de/">weimarnetz</a>. 
-why is the internet cool
-the internet enables us to do better!
+Without access to the internet we wouldn't have come so far with this project. The network allows us to learn about aquaponics, micro-controller and software programming, it enables us to connect to each other, to freely communicate our ideas and believes. The internet simply lets us do better.
+In the future, it will become even more essential for us, to stay in touch with one of our team-members, Simon who is moving to China today.
 
-The most interesting topics during the convention for us were
-* olsrv2 - bandwidth based routing
-* multipath routing - interesting security aspects
-* 5 Ghz - weather radar
-
-We are very happy to have had a visit, meet inspiring people and learn alot.
+We are very happy to have had a visit, meet inspiring people and learn a lot.
 Thank you sublab, thank you freifunk and last but not least, thank you weimarnetz for sparking our interest.
+
+The most interesting topics during the convention for us were:
+
+* olsrv2 - bandwidth based routing
+* multipath routing - for evenly spreading load on the mesh, interesting security aspects
+* 5 GHz - weather radar can potentially block all 5 GHz WiFi channels
+* the yes man - an AP that agrees to all incoming client probes (you could call it a man in the middle attack for WiFi)
 
 <br><br>
 - mrv
